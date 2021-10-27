@@ -15,11 +15,11 @@
 		<org.slf4j-version>1.7.32</org.slf4j-version>
 	</properties>
 	<dependencies>
-<dependency>
-    <groupId>org.projectlombok</groupId>
-    <artifactId>lombok</artifactId>
-    <version>1.18.22</version> <!--버전은 그때 맞춰서-->
-</dependency>
+		<dependency>
+		    <groupId>org.projectlombok</groupId>
+		    <artifactId>lombok</artifactId>
+		    <version>1.18.22</version> <!--버전은 그때 맞춰서-->
+		</dependency>
 		<!-- 오라클 드라이버 -->
 		<dependency>
 			<groupId>com.oracle</groupId>
@@ -85,12 +85,6 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
-			<version>${org.springframework-version}</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-orm</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
 
